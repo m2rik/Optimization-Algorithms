@@ -11,6 +11,9 @@ that minimizes the least square error. Comparing the Gradient Descent with the N
 ### x∗ = ((ATA)^-1 AT) 
 to find the parameters.
 
+
+
+
 ## Stochastic Gradient Descent
 At step k, choose a data point index ik uniformly randomly from the set of all indices {1, 2, . . . , n} and consider the iterations
 where we replace the gradient in the GD method with a random estimate of it.
